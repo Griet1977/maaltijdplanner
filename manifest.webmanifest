@@ -1,9 +1,0 @@
-{
-  "name": "Aan tafel - Maaltijdplanner",
-  "short_name": "Aan tafel",
-  "start_url": "./",
-  "display": "standalone",
-  "background_color": "#f5f4f0",
-  "theme_color": "#171717",
-  "icons": []
-}
