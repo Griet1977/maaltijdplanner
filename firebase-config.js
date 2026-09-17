@@ -1,0 +1,1 @@
+window.MEALPLANNER_FIREBASE_CONFIG={apiKey:"AIzaSyDsVp0UEu503s9eF8A0uZG0tfEPyz-LofA",authDomain:"aan-tafel-kloostertuin.firebaseapp.com",projectId:"aan-tafel-kloostertuin",storageBucket:"aan-tafel-kloostertuin.firebasestorage.app",messagingSenderId:"239222894542",appId:"1:239222894542:web:468f842c9d4fa6df56459f"};
