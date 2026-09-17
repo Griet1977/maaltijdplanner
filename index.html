@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#171717" />
+  <title>Aan tafel | Maaltijdplanner V1</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="brand-icon">🍽</span><div><strong>Aan tafel</strong><small>Samen kiezen, eenvoudig plannen</small></div></div>
+    <label class="user-switch"><span>Gebruiker</span><select id="activeUser"></select></label>
+  </header>
+
+  <div class="app-shell">
+    <nav id="desktopNav" class="desktop-nav" aria-label="Hoofdnavigatie"></nav>
+    <main id="app" tabindex="-1"></main>
+  </div>
+
+  <nav id="mobileNav" class="mobile-nav" aria-label="Mobiele navigatie"></nav>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="modalRoot"></div>
+  <script src="app.js"></script>
+</body>
+</html>
